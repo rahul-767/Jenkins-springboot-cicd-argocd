@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        //git branch: 'main', url: 'https://github.com/rahul-767/Jenkins-springboot-cicd-argocd'
+        //git branch: 'main', url: 'https://github.com/rahul-767/Jenkins-springboot-cicd-argocd.git'
       }
     }
     stage('Build and Test') {
